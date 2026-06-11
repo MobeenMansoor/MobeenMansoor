@@ -1,0 +1,107 @@
+<svg width="800" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00F0FF;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#00F0FF;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#00F0FF;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B2FBE;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#7B2FBE;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#7B2FBE;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Horizontal scan lines for CRT effect -->
+  <g opacity="0.06">
+    <line x1="0" y1="10" x2="800" y2="10" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="20" x2="800" y2="20" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="30" x2="800" y2="30" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="40" x2="800" y2="40" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="60" x2="800" y2="60" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="70" x2="800" y2="70" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="80" x2="800" y2="80" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="90" x2="800" y2="90" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="110" x2="800" y2="110" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="800" y2="120" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="130" x2="800" y2="130" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="140" x2="800" y2="140" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="800" y2="160" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="170" x2="800" y2="170" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="180" x2="800" y2="180" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="190" x2="800" y2="190" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#00F0FF" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="800" y2="210" stroke="#00F0FF" stroke-width="0.5"/>
+  </g>
+
+  <!-- Decorative accent lines -->
+  <line x1="0" y1="35" x2="800" y2="35" stroke="url(#lineGrad)" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="185" x2="800" y2="185" stroke="url(#lineGrad2)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Corner brackets decoration -->
+  <g stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.5">
+    <polyline points="20,20 20,45 45,45"/>
+    <polyline points="780,20 780,45 755,45"/>
+    <polyline points="20,200 20,175 45,175"/>
+    <polyline points="780,200 780,175 755,175"/>
+  </g>
+
+  <!-- MAGENTA GHOST (chromatic aberration) -->
+  <text x="400" y="115" text-anchor="middle" font-family="'Courier New', 'Lucida Console', monospace" font-size="52" font-weight="bold" fill="#FF40FF" opacity="0">
+    MOBEEN MANSOOR
+    <animate attributeName="opacity" values="0;0;0.4;0;0;0;0.3;0;0;0;0;0;0;0;0.5;0;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="400;400;404;400;400;400;397;400;400;400;400;400;400;400;405;400;400;400;400;400" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="115;115;113;115;115;115;117;115;115;115;115;115;115;115;114;115;115;115;115;115" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- CYAN GHOST (chromatic aberration) -->
+  <text x="400" y="115" text-anchor="middle" font-family="'Courier New', 'Lucida Console', monospace" font-size="52" font-weight="bold" fill="#40C0FF" opacity="0">
+    MOBEEN MANSOOR
+    <animate attributeName="opacity" values="0;0;0;0.35;0;0;0;0;0;0.4;0;0;0;0;0;0.3;0;0;0;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="400;400;400;396;400;400;400;400;400;403;400;400;400;400;400;398;400;400;400;400" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="115;115;115;117;115;115;115;115;115;113;115;115;115;115;115;116;115;115;115;115" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- MAIN TEXT -->
+  <text x="400" y="115" text-anchor="middle" font-family="'Courier New', 'Lucida Console', monospace" font-size="52" font-weight="bold" fill="#B040FF" opacity="1">
+    MOBEEN MANSOOR
+    <animate attributeName="opacity" values="1;1;0.85;1;1;1;0.9;1;1;1;1;1;1;0.8;1;1;1;1;1;1" dur="6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle with flicker -->
+  <text x="400" y="155" text-anchor="middle" font-family="'Courier New', 'Lucida Console', monospace" font-size="15" fill="#7B2FBE" letter-spacing="6" opacity="0.9">
+    ⟨ ARTIFICIAL INTELLIGENCE ENGINEER ⟩
+    <animate attributeName="opacity" values="0.9;0.9;0.9;0.6;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.4;0.9;0.9;0.9;0.9" dur="8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Small decorative hex codes -->
+  <text x="60" y="65" font-family="'Courier New', monospace" font-size="9" fill="#00F0FF" opacity="0.2">
+    0x4D4F4245454E
+    <animate attributeName="opacity" values="0.2;0.15;0.25;0.2;0.1;0.2" dur="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="620" y="65" font-family="'Courier New', monospace" font-size="9" fill="#7B2FBE" opacity="0.2">
+    SYS://NEURAL.INIT
+    <animate attributeName="opacity" values="0.2;0.25;0.15;0.2;0.3;0.2" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="60" y="195" font-family="'Courier New', monospace" font-size="9" fill="#7B2FBE" opacity="0.15">
+    EPOCH: ∞ | LOSS: 0.001
+    <animate attributeName="opacity" values="0.15;0.2;0.1;0.15;0.25;0.15" dur="7s" repeatCount="indefinite"/>
+  </text>
+
+
+  <!-- Animated scanning line -->
+  <rect x="0" y="0" width="800" height="3" fill="#00F0FF" opacity="0.06">
+    <animate attributeName="y" values="-3;220" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
