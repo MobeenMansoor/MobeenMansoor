@@ -180,12 +180,7 @@ const MobeenMansoor = {
 
 
 
-<!-- GitHub Trophies -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MobeenMansoor&theme=algolia&no-bg=true&no-frame=true&column=7&margin-w=10" width="98%" alt="GitHub Trophies"/>
-</div>
 
-<br/>
 
 <!-- MATRIX DIVIDER -->
 <img src="./assets/matrix-divider.svg" width="100%"/>
