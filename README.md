@@ -25,12 +25,8 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=MobeenMansoor&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&labelColor=0d1117" alt="Profile Views"/>
   &nbsp;
-  <a href="https://github.com/MobeenMansoor?tab=followers">
-    <img src="https://img.shields.io/github/followers/MobeenMansoor?style=for-the-badge&color=7B2FBE&labelColor=0d1117&label=Followers&logo=github&logoColor=00F0FF" alt="Followers"/>
-  </a>
-  &nbsp;
   <a href="https://github.com/MobeenMansoor?tab=repositories">
-    <img src="https://img.shields.io/badge/REPOS-Public-00F0FF?style=for-the-badge&labelColor=0d1117" alt="Repos"/>
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMobeenMansoor&query=public_repos&style=for-the-badge&color=7B2FBE&labelColor=0d1117&label=Projects&logo=github&logoColor=00F0FF" alt="Projects"/>
   </a>
 </div>
 
