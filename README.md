@@ -115,6 +115,11 @@ const MobeenMansoor = {
   <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00F0FF" />
   <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00F0FF" />
   <img src="https://img.shields.io/badge/Assembly-0d1117?style=for-the-badge&logo=assemblyscript&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=java&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/Go-0d1117?style=for-the-badge&logo=go&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/R-0d1117?style=for-the-badge&logo=r&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/Julia-0d1117?style=for-the-badge&logo=julia&logoColor=00F0FF" />
+  <img src="https://img.shields.io/badge/Lisp-0d1117?style=for-the-badge&logo=commonlisp&logoColor=00F0FF" />
 
   <br/><br/>
 
@@ -173,12 +178,7 @@ const MobeenMansoor = {
 
 <br/>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MobeenMansoor&bg_color=0d1117&color=00F0FF&line=7B2FBE&point=00F0FF&area=true&area_color=7B2FBE&hide_border=true&custom_title=CONTRIBUTION%20FREQUENCY%20ANALYSIS" width="98%" alt="Activity Graph"/>
-</div>
 
-<br/>
 
 <!-- GitHub Trophies -->
 <div align="center">
@@ -214,25 +214,7 @@ const MobeenMansoor = {
 <!-- MATRIX DIVIDER -->
 <img src="./assets/matrix-divider.svg" width="100%"/>
 
-<br/>
 
-<!-- ═══════════════════════ 3D CONTRIB CALENDAR ═══════════════════════ -->
-
-<div align="center">
-  <h2>🌐 CONTRIBUTION_MAP.render3D() 🌐</h2>
-  <p><em><code>// Isometric visualization of commit topology</code></em></p>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contribution Map"/>
-</div>
-
-<br/>
-
-<!-- MATRIX DIVIDER -->
-<img src="./assets/matrix-divider.svg" width="100%"/>
 
 <br/>
 
