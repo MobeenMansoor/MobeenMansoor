@@ -2,13 +2,18 @@ name: Generate 3D Contribution Calendar
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # Runs daily at 6:00 UTC
-  workflow_dispatch:       # Manual trigger
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate 3D Profile
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
